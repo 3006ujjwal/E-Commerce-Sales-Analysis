@@ -9,6 +9,7 @@ The objective is to analyze sales performance, profitability, product performanc
 ## Tools & Technologies
 
 - Microsoft Power BI
+- DAX
 - Power Query
 - Microsoft Excel
 - Git & GitHub
