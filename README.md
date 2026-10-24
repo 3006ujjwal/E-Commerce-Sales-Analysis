@@ -4,7 +4,7 @@ An interactive Power BI business intelligence project exploring **$900M in Adida
 
 ## Business Problem
 
-Sales totals alone do not explain how a business is performing. This project examines sales distribution alongside operating profit and margin to help answer:
+Sales total alone do not explain how a business is performing. This project examines sales distribution alongside operating profit and margin to help answer:
 
 - How does sales performance vary by state and region?
 - Which products and retailers contribute to sales?
@@ -20,9 +20,9 @@ The report contains two pages:
 
 Explores sales performance across geography, products, retailers, and time.
 
-**KPIs:** Total Sales, Total Operating Profit, Total Units Sold, Average Price per Unit, Average Operating Margin, and Sales YoY %.
+**KPIs:** Total Sales, Total Operating Profit, Total Units Sold, Average Price per Unit and Average Operating Margin.
 
-**Views:** Sales by state, region, retailer, product, and month, with interactive filters and visual tooltips.
+**Views:** Sales by Month, State, Region, Product, and  Retailer, with interactive filters and visual tooltips.
 
 ![Sales Analysis Dashboard](Screenshots/01%20-%20Sales%20Analysis.png)
 
@@ -32,7 +32,7 @@ Focuses on operating profit and margin rather than sales value alone.
 
 **KPIs:** Total Operating Profit, Profit Margin %, and Sales YoY %.
 
-**Views:** Profit Margin by Product, Operating Profit by Retailer, and Operating Profit by Product.
+**Views:**  Operating Profit by Retailer, Operating Profit by Product and Profit Margin by Product,
 
 ![Profitability Analysis Dashboard](Screenshots/02%20-%20Profitability%20Analysis.png)
 
@@ -73,13 +73,12 @@ These are dataset/report-level figures, rounded for readability. Values may chan
 
 ```text
 E-Commerce-Sales-Analysis/
-├── Documentation/
-│   └── project-overview.md
 ├── Screenshots/
-│   ├── Sales-Analysis.png
-│   └── Profitability-Analysis.png
+│   ├── 01 - Sales Analysis.png
+│   └── 02 - Profitability Analysis.png
 ├── E-Commerce Sales Analysis.pbix
 ├── E-Commerce Sales Data.xlsx
+├── Project Overview.md  
 └── README.md
 ```
 
@@ -97,5 +96,4 @@ This is a historical, descriptive analytics project. It helps users explore perf
 ## Author
 
 **Ujjwal Prasad**  
-Business Intelligence · Data Analytics · Data Visualization
-Power BI | DAX | Power Query | Excel
+Business Intelligence · Data Analytics · Power BI
