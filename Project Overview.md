@@ -2,7 +2,7 @@
 
 ## 1. Project Summary
 
-This project uses Microsoft Power BI to analyze Adidas U.S. sales data from January 2020 through December 2021. The dataset contains 9,648 records and approximately $900M in sales. The report is organized into two pages—**Sales Analysis** and **Profitability Analysis**—to examine sales performance and operating profitability across products, retailers, geography, and time.
+This project uses Microsoft Power BI to analyze Adidas Sales data from January 2020 through December 2021. The dataset contains 9,648 records and approximately $900M in sales. The report is organized into two pages—**Sales Analysis** and **Profitability Analysis**—to examine sales performance and operating profitability across products, retailers, geography, and time.
 
 The purpose is to turn a tabular sales dataset into an interactive report that supports historical performance analysis and business exploration.
 
@@ -23,13 +23,14 @@ This project addresses the following questions:
 
 | Attribute | Details |
 |---|---|
-| Dataset | Adidas U.S. sales data |
+| Dataset | Adidas Sales |
+| Additional Table | `Date Table` |
 | Source file | `E-Commerce Sales Data.xlsx` |
-| Worksheet | `Data Sales Adidas` |
+| Worksheet in Excel | `Data Sales Adidas` |
 | Period covered | January 2020–December 2021 |
 | Number of records | 9,648 |
-| Approximate total sales | $900M |
-| Approximate operating profit | $332M |
+| Approximate Total sales | $900M |
+| Approximate Operating profit | $332M |
 
 ### Fields used
 
@@ -53,11 +54,11 @@ These fields support analysis of sales value, sales volume, geography, product a
 
 ## 4. Tools and Technologies
 
-- **Microsoft Power BI** — report development and interactive visual analysis
-- **Power Query** — data preparation and transformation
-- **DAX** — explicit KPI and analytical measures
-- **Microsoft Excel** — source dataset
-- **Git/GitHub** — version control and portfolio presentation
+- **Microsoft Power BI** — Report development and interactive visual analysis
+- **Power Query** — Data preparation and transformation
+- **DAX** — Explicit KPI and analytical measures
+- **Microsoft Excel** — Source dataset
+- **Git/GitHub** — Version control and portfolio presentation
 
 ## 5. Data Preparation and Analysis Workflow
 
@@ -85,17 +86,16 @@ Explore the distribution and movement of sales across geographical areas, produc
 - Total Units Sold
 - Average Price per Unit
 - Average Operating Margin
-- Sales YoY %
 
 ### Main analytical views
 
 | View | Question addressed |
 |---|---|
+| Total Sales by Month | How does sales vary over time? |
 | Total Sales by State | How are sales distributed across states? |
 | Sales by Region | How does sales performance differ by region? |
-| Total Sales by Retailer | How does sales contribution compare across retailers? |
 | Total Sales by Product | How does sales contribution compare across products? |
-| Total Sales by Month | How does sales vary over time? |
+| Total Sales by Retailer | How does sales contribution compare across retailers? |
 
 Interactive filters allow users to focus on selected dates and regions. Tooltips provide additional context where configured.
 
@@ -115,9 +115,9 @@ Examine operating profitability and margin separately from sales volume and sale
 
 | View | Question addressed |
 |---|---|
-| Profit Margin by Product | How does margin differ across products? |
-| Operating Profit by Retailer | How does operating profit compare across retailers? |
 | Operating Profit by Product | How does operating profit differ across products? |
+| Operating Profit by Retailer | How does operating profit compare across retailers? |
+| Profit Margin by Product | How does margin differ across products? |
 
 This page supports comparison of absolute operating profit and margin. These metrics answer different questions: a product can contribute substantial sales or profit without necessarily having the highest margin.
 
@@ -170,15 +170,15 @@ The dashboard is a descriptive decision-support tool. It identifies patterns in 
 ## 12. Files
 
 - `E-Commerce Sales Analysis.pbix` — Power BI report
-- `E-Commerce Sales Data.xlsx` — source dataset
-- `README.md` — short project summary and navigation
-- `Screenshots/` — exported images of the report pages
+- `E-Commerce Sales Data.xlsx` — Source dataset
+- `README.md` — Short project summary and navigation
+- `Screenshots/` — Exported images of the report pages
 
 ## 13. How to Open the Project
 
 1. Open `E-Commerce Sales Analysis.pbix` in Microsoft Power BI Desktop.
 2. Navigate to **Sales Analysis** to explore sales performance.
-3. Navigate to **Profitability Analysis** to explore operating profit and margins.
+3. Navigate to **Profitability Analysis** to explore operating profit and profit margins.
 4. Use the available filters and slicers to investigate the data.
 5. Consult the Excel source file for the underlying data.
 
